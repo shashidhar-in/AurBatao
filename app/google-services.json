@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "368086859642",
+    "project_id": "aur-batao-fb84e",
+    "storage_bucket": "aur-batao-fb84e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368086859642:android:b192d9e6fc3739276d20c3",
+        "android_client_info": {
+          "package_name": "com.example.aurbatao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368086859642-51agilh0r818ca9ggel35nv7crfv5j8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo-tYU9iW8yVHeZIIAtRGchX6a_z-iQQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368086859642-51agilh0r818ca9ggel35nv7crfv5j8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

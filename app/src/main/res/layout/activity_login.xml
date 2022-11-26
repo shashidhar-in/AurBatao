@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/laypeaks"
+   >
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:text="Welcome \nBack"
+    android:textColor="#fff"
+    android:textSize="60dp"
+        android:layout_marginLeft="10dp"
+    android:textStyle="bold" />
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/emailBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textbox_style"
+
+            />
+        <EditText
+            android:id="@+id/passwordBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textbox_style"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginBtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/loginbtn_style"
+
+            />    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="don't have an account? "/>
+        <TextView
+            android:id="@+id/signupLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+
+            android:textSize="16sp"
+            android:textColor="#03b078"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
